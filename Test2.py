@@ -1,7 +1,7 @@
-for t in range(100):
+for t in range(20):
     t += 1
     print(t)
-    if t <= 99:
-        print(f"Прибавим {10}!")
+    if t <= 19:
+        print(f"Прибавим {1}!")
     else:
-        print(f"Мы посчитали до {100}!")
+        print(f"Мы посчитали до {20}!")
