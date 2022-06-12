@@ -1,8 +1,7 @@
-x = -5
+from tkinter import Y
 
-if x == 0:
-    x == 2
-elif x > 0:
-    x += 2
-else:
-    print(10/x)
+
+x = float(input('Введите число: '))
+y = float(input('Введите число: '))
+r = x + y
+print('Результат: ' + str(r))
